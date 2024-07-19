@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+.app{
+  /* color: rgb(30, 28, 28); */
+  padding: 6px;
+
+}
+/* min-h-screen p-6 bg-white text-gray-600 text-lg */

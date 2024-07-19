@@ -1,0 +1,161 @@
+
+.navbar{
+    /* border: solid 2px red; */
+    /* display: flex;
+    justify-content: space-between;
+    justify-items: center; */
+    padding: 0 8px ;
+    margin: auto 0 ;
+    flex-direction: row;
+    padding: 1rem;
+    background-color: #ffffff;
+    box-shadow:  0 3px 6px rgb(0,0,0,0.2);
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* flex justify-between items-center py-8 container mx-auto flex-col lg:flex-row gap-5 lg:gap-0 */  
+}
+
+
+.links{
+    /* border: solid 2px red; */
+    display: flex;
+    padding: 0 8px;
+    margin: auto 0;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    margin:  0 2rem;
+    color: black;
+    
+}
+
+.logo-title{
+    /* border: solid 2px rgb(0, 13, 255); */
+padding-top: 20px;
+    font-size: 1.8rem;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 800;
+    margin-right: auto;
+   
+    
+}
+.logoImg{
+    width :60px;
+    margin-right: 4px;
+   
+ 
+    
+}
+
+.logo-title span{
+    font-weight: 800;
+    color:rgb(255, 0, 86);
+}
+.navigation{
+    /* border: solid 2px rgb(38, 160, 69); */
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    padding: 0 8px;
+    margin: auto 0;
+    flex-direction: row;
+    font-size:large;
+    
+}
+.home{
+margin-right: 2rem;
+}
+.favorite{
+
+}
+
+.banner{
+position: relative;
+height: 30rem;
+background-image: url("/public/assets/cook.jpeg");
+background-repeat: no-repeat;
+background-size: cover;
+box-shadow: 0 3px 6px rgb(0, 0, 0, 0.2);
+}
+
+.search{
+    /* background-color: rgb(231, 217, 65); */
+    border: solid 2px rgb(127, 127, 128);
+    border: solid 2.5px rgb(233, 231, 231);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 4rem;
+    /* box-shadow: 5px 10px 18px #888888; */
+    width: 25rem;
+    height: 3rem;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+.search:hover{
+    border: solid 3px #ffffff;
+
+}
+.search-input{
+background-color: transparent; 
+margin-left: 1rem;
+border: none;
+outline: none;
+padding: 3px;
+font-size: 20px;
+background: none;
+border: none;
+color: white;
+font-weight: 400;
+
+}
+
+.search-input:focus{
+    background-color: transparent;
+}
+/* bg-white/75 p-3 px-8 rounded-full outline-none lg:w-96 shadow-lg shadow-red-100 focus:shadow-red-200 */
+.search-icon{
+    color: rgb(255, 0, 86);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+        font-family: "Questrial", sans-serif;
+        font-weight: 600;
+        font-style: normal; */
+/* 
+        font-family: "Righteous", sans-serif;
+        font-weight: 400;
+        font-style: normal; */
+
+/* font-family: "Alata", sans-serif;
+            font-weight: 400;
+            font-style: normal; */
+/* 
+        font-family: "Kumbh Sans", sans-serif;
+        font-optical-sizing: auto; */
+/* 
+        font-family: "Dela Gothic One", sans-serif;
+        font-weight: 400;
+        font-style: normal;font-style: normal; */
+
+/* font-family: "Ultra", serif;
+        font-weight: 400;
+        font-style: normal; */

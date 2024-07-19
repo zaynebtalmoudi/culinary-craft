@@ -1,0 +1,22 @@
+.text-slogan{
+     font-size: 40px;
+     margin-top: 2rem;
+ }
+ .slogan{
+
+display: flex;
+justify-items: center;
+justify-content: center;
+text-align: center;
+
+ }
+.sloganImg{
+  
+display: flex;
+    justify-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.sloganImg img{
+    width: 7rem;
+}

@@ -1,0 +1,121 @@
+/*  ----------- FILTER ----------- */
+
+.filter-container{
+    padding :1rem 4rem;
+}
+.filter-badge-container {
+    margin-top: 2rem;
+    position: relative;
+
+    /* border: 2px rgb(17, 0, 255) solid; */
+}
+
+.filter-badge {
+
+    /* border-radius: 20px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 7rem;
+    color: white;
+    cursor: pointer; */
+    box-shadow: 0 3px 6px rgb(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    cursor: pointer;
+    margin-bottom: 1em;
+    
+    width: 6.5rem;
+    padding: 8px;
+    border-radius: 8px;
+    border: 2px solid rgb(231, 234, 233);;
+
+}
+.filterActive{
+    background-color: rgb(255, 0, 86);
+    color: white;
+
+}
+.filterInactive{
+    background-color: rgb(255, 255, 255);
+}
+
+.filter-icon {
+    margin-right: 10px;
+}
+
+.filter-badge span {
+    font-size: 18px;
+
+    font-weight: 500;
+    font-family: "Alata", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.horizontal-seperator{
+    height: .8px;
+    background-color: grey;
+
+}
+.filter-modal {
+    /* border: 2px solid blue; */
+    display: flex;
+   justify-content: space-around;
+   margin-bottom: 1rem;
+}
+.hideModal{
+    display: none;
+}
+.filter-block{
+    /* border: 2px solid red ; */
+    text-align: center;
+}
+.filter-block h3{
+    font-size: 28px;
+    color: #3a9691;
+    margin-bottom: 1rem;
+}
+.filter-block li{
+    margin-bottom: 12px;
+    border-radius: 20px;
+    padding: 7px;
+    border:solid 2px  #d5e6e5;
+    cursor: pointer;
+}
+.selected{
+    background-color: rgb(216, 215, 215) !important;
+}
+.notSelected{
+    background-color: white!important
+}
+.filter-block li:hover {
+background-color: rgb(180, 205, 197);
+}
+.submit-filter{
+color: #308a85;
+
+margin : 20px 0 30px 4rem;
+font-size: 18px;
+font-weight:500 ;
+border-radius: 10px;
+box-shadow: 0 3px 6px rgb(0, 0, 0, 0.4);
+background-color: white;
+padding: 8px;
+border-radius: 8px;
+border: 2px solid rgb(231, 234, 233);
+    
+} 
+.hideButton{
+    display: none;
+}
+.note {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+

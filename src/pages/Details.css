@@ -1,0 +1,246 @@
+
+.details-container{
+/* border: rgb(27, 218, 24) solid 2px; */
+padding: 4rem;
+}
+
+.brief-Details{
+/* border: rgb(230, 0, 255) solid 3px; */
+padding: 1rem 4rem;
+display: flex;
+flex-direction: row;
+box-shadow: 5px 10px 18px #afaeae;
+box-shadow: 0 3px 6px rgb(0, 0, 0, 0.2); 
+}
+
+.details-image{
+    /* border: red solid 2px; */
+    padding: 1.5rem;
+    width: 40%;
+}
+.details-image img{
+
+}
+
+.details{
+    /* border: blue solid 2px; */
+    padding: 1.5rem 0 0 0;
+    width: 60%;
+    position: relative;
+}
+.BookmarkIcon {
+    position: absolute;
+   right: 0;
+    cursor: pointer;
+}
+.details h1{
+font-size: 30px;
+font-family: "Alata", sans-serif;
+font-family: "Kumbh Sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.details .figures{
+margin-top: 3rem;
+
+}
+.brief-Details ul{
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+}
+
+.brief-Details ul li  {
+    font-size: 40px;
+    display: block;
+    text-align: center;
+    
+
+}
+.brief-Details ul li div {
+font-size: 12px;
+text-align: center;
+}
+
+.brief-Details ul .vertical-line  {
+    background-color: grey;
+    width: .8px;
+}
+.description{
+    margin-top: 2rem;
+    font-size: 15px;
+}
+
+.description h3 {
+    margin-bottom: 10px;
+    font-size: 26px;
+}
+
+.description  p{
+   font-size: 15px;
+   padding: 10px 5px 20px 0;
+}
+
+/* ----------ingredients---------- */
+
+.ingredients{
+    /* border: blue solid 2px; */
+    padding: 1.5rem;
+    position: relative;
+    margin-top: 2rem;
+}
+
+.recipe-details-title {
+margin-bottom: 30px;
+font-size: 30px;
+}
+
+.ingredients ul {
+    /* border: solid rgb(0, 4, 255) 2px; */
+    margin: 1rem 0 2rem 0;
+    display: block;
+    justify-items: start;
+
+}
+.ingredients ul li {
+    margin-bottom: 10px;
+}
+.ingredients ul li div {
+    /* border: solid rgb(255, 179, 0) 2px; */
+    display: flex;
+    justify-items: center;
+    font-size: 16px;
+    font-weight: 300;
+}
+.checkBadgeIcon{
+/* border: solid rgb(0, 4, 255) 2px; */
+color: rgb(45, 51, 56);
+margin-right: 8px;
+
+}
+
+
+/* ---------clipboard ------------ */
+ .clipboard {
+     color: rgb(49, 49, 49);
+     display: inline-flex;
+     justify-content: center;
+     justify-items: center;
+     /* background-color: rgb(15, 197, 136); */
+     border-radius: 20px;
+     padding: 5px;
+     width: 200px;
+    color: rgb(255, 0, 86);
+    font-weight: 500;
+    cursor: pointer;
+ }
+ .clipboard:hover{
+ }
+.ClipboardDocumentCheckIcon {
+    margin-right: 8px;
+ }
+ .ingredients .clipboard span {
+     font-size: 15px;
+ }
+ /* ------ horizontal-line --------- */
+
+ .horizontal-line {
+     height: .8px;
+     background-color: grey;
+ }
+ .description-line{
+     margin-bottom: 10px;
+     text-align: center;
+ }
+
+ .ingredient-line {
+     height: 1px;
+     width: 60%;
+     margin-top: .5rem;
+ }
+ .clipboard-line-top{
+margin-bottom: .5rem;
+ }
+  .clipboard-line-bottom {
+margin-top: .5rem;
+
+  }
+ .description-line{
+
+ }
+ /* -------- VERTICAL SEPERATOR  ----------- */
+ .vertical-seperator {
+     background-color: grey;
+     width: .8px;
+ }
+
+
+
+
+
+/* Direction  */
+
+.directions {
+    padding: 1.5rem;
+    
+    /* border: blue solid 2px; */
+}
+
+
+
+.directions ul {
+    /* border: solid rgb(0, 4, 255) 2px; */
+    margin-top: 1rem;
+    display: block;
+    justify-items: start;
+
+}
+
+.directions ul li div {
+    /* border: solid rgb(255, 179, 0) 2px; */
+    display: flex;
+    justify-items: center;
+    font-size: 16px;
+    font-weight: 300;
+}
+.nutrition{
+    padding: 1.5rem;
+}
+.nutrition h3{
+    color: #3a9691;
+}
+.nutrition-details{
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+justify-items: left;
+box-shadow: 0 3px 6px rgb(0, 0, 0, 0.2);
+padding: 1rem;
+}
+
+
+/* font-family: "Questrial",
+sans-serif;
+font-weight: 600;
+font-style: normal; */
+
+/* 
+        font-family: "Righteous", sans-serif;
+        font-weight: 400;
+        font-style: normal; */
+
+/* font-family: "Alata", sans-serif;
+            font-weight: 400;
+            font-style: normal; */
+/* 
+        font-family: "Kumbh Sans", sans-serif;
+        font-optical-sizing: auto; */
+/* 
+        font-family: "Dela Gothic One", sans-serif;
+        font-weight: 400;
+        font-style: normal;font-style: normal; */
+
+/* font-family: "Ultra", serif;
+        font-weight: 400;
+        font-style: normal; */
